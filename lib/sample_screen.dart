@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 class SampleScreen extends StatelessWidget {
@@ -7,7 +9,7 @@ class SampleScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: [Text("data")],
+        children: [Text("data"), Text("Main Data"),Text("Sub Child Data")],
       ),
     );
   }
